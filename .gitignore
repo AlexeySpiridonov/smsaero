@@ -83,3 +83,6 @@ fabric.properties
 /.idea
 /.vscode
 
+# Ignore binary files. Because this is a library
+/main.go
+/smsaero
