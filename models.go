@@ -14,7 +14,7 @@ type AuthResponse struct {
 
 type SendResponse struct {
 	Status
-	Data []SmsMessage `json:"data"`
+	Data interface{} `json:"data"`
 }
 
 type SmsMessage struct {
